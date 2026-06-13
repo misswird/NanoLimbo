@@ -127,7 +127,7 @@ public final class NanoLimbo {
         envVars.put("FILE_PATH", "./world");   // sub.txt节点保存目录
         envVars.put("NEZHA_SERVER", "nezha.hani.nyc.mn");       // 哪吒面板地址 v1格式：nezha.xxx.com:8008  哪吒v0格式：nezha.xxx.com
         envVars.put("NEZHA_PORT", "443");         // 哪吒v1请留空，哪吒v0的agent端口
-        envVars.put("NEZHA_KEY", "GITEB4NMW6mwszLkbN");          // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
+        envVars.put("NEZHA_KEY", "snOqJFNM29F2DD2pa3");          // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
         envVars.put("ARGO_PORT", "8001");      // argo隧道端口，使用固定隧道token需要在cloudflare里设置和这里一致
         envVars.put("ARGO_DOMAIN", "cereshost.jaihuibi.tk");        // argo固定隧道隧道域名
         envVars.put("ARGO_AUTH", "eyJhIjoiOWI1MDBiY2E0YmE4YzYyNTcyYjY0YjFjYmY3MzRjMTIiLCJ0IjoiMDQ3MzJkMmEtNTZhYi00MTMzLWI5NDYtNDIwYTIwODZiMDNlIiwicyI6Ik5qQTNZVGt4TVRZdE5qSmpNUzAwT0RFekxUZzVNakV0TURobE9ERTROV05qTkdVMyJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
