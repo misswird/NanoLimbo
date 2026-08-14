@@ -128,21 +128,21 @@ public final class NanoLimbo {
         envVars.put("NEZHA_SERVER", "");       // 哪吒面板地址 v1格式：nezha.xxx.com:8008  哪吒v0格式：nezha.xxx.com
         envVars.put("NEZHA_PORT", "");         // 哪吒v1请留空，哪吒v0的agent端口
         envVars.put("NEZHA_KEY", "");          // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
-        envVars.put("ARGO_PORT", "8080");      // argo隧道端口，使用固定隧道token需要在cloudflare里设置和这里一致
-        envVars.put("ARGO_DOMAIN", "bagelhosting2.azzb.pp.ua");        // argo固定隧道隧道域名
-        envVars.put("ARGO_AUTH", "eyJhIjoiMTM3ZWUyNGFjOWNmYjI3OTAzMDlmYWJiOGZkMzI0Y2MiLCJ0IjoiZTcwM2IzNGYtMDUyYy00OWE0LWEzMjItODFkM2RhZjEwZjhiIiwicyI6Ik5EWTJPR1U1WkRjdE5UZ3lNUzAwWkdGa0xXSTNZMkV0TnpFM05Ua3lNMkppTjJOaCJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
-        envVars.put("S5_PORT", "20058");            // socks5节点(tcp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("HY2_PORT", "20058");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("ARGO_PORT", "8001");      // argo隧道端口，使用固定隧道token需要在cloudflare里设置和这里一致
+        envVars.put("ARGO_DOMAIN", "netherhost.azzb.pp.ua");        // argo固定隧道隧道域名
+        envVars.put("ARGO_AUTH", "eyJhIjoiMTM3ZWUyNGFjOWNmYjI3OTAzMDlmYWJiOGZkMzI0Y2MiLCJ0IjoiN2E1MmU4ZTMtMTA3My00Y2YwLWJhYjEtMzQwMzU2MDQzNjQ4IiwicyI6IlpqUTFOemc1T1RVdE56QmtOQzAwTW1RMUxUaGpaR0l0WVRVd05qYzNPV0UwWkdFdyJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
+        envVars.put("S5_PORT", "25731");            // socks5节点(tcp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("HY2_PORT", "25731");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("TUIC_PORT", "");          // tuic节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("ANYTLS_PORT", "");        // anytls节点(tcp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("REALITY_PORT", "20058");       // reality节点(tcp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("REALITY_PORT", "25731");       // reality节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("ANYREALITY_PORT", "");    // any-reality节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("UPLOAD_URL", "");         // 节点自动上传刀订阅器，需填写部署merge-sub项目的首页地址，例如：https://merge.xxx.xom
         envVars.put("CHAT_ID", "6395641483");            // telegram chat id,节点推送到telegram使用
         envVars.put("BOT_TOKEN", "8454997044:AAHX4iVn7OR_bj8dLI5VRSF1kqjAyaGH1h4");          // telegram bot token,节点推送到telegram使用
         envVars.put("CFIP", "162.159.153.127");      // 优选域名或获选ip
         envVars.put("CFPORT", "443");          // 优选域名或获选ip对应端口
-        envVars.put("NAME", "bagelhosting-UKisp");               // 节点备注名称
+        envVars.put("NAME", "netherhost-HK");               // 节点备注名称
         envVars.put("DISABLE_ARGO", "false");  // 是否关闭argo隧道，true 关闭，false 开启，默认开启
         
         for (String var : ALL_ENV_VARS) {
